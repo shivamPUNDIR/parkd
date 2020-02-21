@@ -1,0 +1,22 @@
+{
+  "name": "parkd",
+  "version": "0.0.1",
+  "description": "A parking solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "parking"
+  ],
+  "author": "Shivam Pundir",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
